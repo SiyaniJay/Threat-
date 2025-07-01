@@ -7,3 +7,4 @@ spacy-legacy==3.0.12
 spacy-loggers==1.0.5
 streamlit==1.46.1
 sumy==0.11.0
+docx

@@ -11,7 +11,7 @@ from main import (
     generate_report
 )
 
-st.set_page_config(page_title="Email Threat Analyzer", layout="wide")
+st.set_page_config(page_title="Email Threat Analyser", layout="wide")
 st.title("Threat Analyser")
 
 # --- Drag & Drop Upload ---

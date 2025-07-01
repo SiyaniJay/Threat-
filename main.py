@@ -1,6 +1,8 @@
 # main.py
 
-import os
+import os, nltk
+# ensure NLTK knows where to find your bundled data
+nltk.data.path.append(os.path.join(os.path.dirname(__file__), 'nltk_data'))
 from email import policy
 from email.parser import BytesParser
 from bs4 import BeautifulSoup
@@ -11,7 +13,7 @@ from docx import Document
 from datetime import datetime
 
 # Setup
-nltk.download('punkt')
+# nltk.download('punkt')
 nlp = spacy.load("en_core_web_md")
 
 def parse_eml(uploaded_file):

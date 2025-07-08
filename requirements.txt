@@ -1,0 +1,5 @@
+streamlit==1.46.1
+spacy==3.8.7
+en_core_web_md @ https://github.com/explosion/spacy-models/releases/download/en_core_web_md-3.8.0/en_core_web_md-3.8.0-py3-none-any.whl
+python-docx>=0.8.11
+beautifulsoup4>=4.13.4

@@ -10,7 +10,7 @@ from main import (
 )
 
 st.set_page_config(page_title="Email Threat Analyser", layout="wide")
-st.title("Threat Analyser")k 
+st.title("Threat Analyser")
 
 # — Fancy drag-and-drop styling —
 st.markdown(
